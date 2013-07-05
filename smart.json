@@ -2,9 +2,8 @@
   "name": "lazy-subscription",
   "description": "Don't subscribe until you need to.",
   "homepage": "https://github.com/athiwatc/meteor-lazy-subscription",
-  "author": "Athiwat Chunlakhan",
-  "version": "0.1.0",
+  "author": "Athiwat Chunlakhan <athiwatc@gmail.com>",
+  "version": "0.0.1",
   "git": "https://github.com/athiwatc/meteor-lazy-subscription.git",
-  "packages": {
-  }
+  "packages": {}
 }

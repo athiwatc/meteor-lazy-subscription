@@ -16,6 +16,5 @@
 			return self.collection;
 		}
 	}
-
 	Meteor.Lazy = Lazy;
 }());

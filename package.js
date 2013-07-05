@@ -2,6 +2,6 @@ Package.describe({
   summary: "Don't subscribe until you need to."
 });
 
-api.add_files([
-	"lazy_subsciption.js"
-], ["client"]);
+Package.on_use(function (api, where) {
+	api.add_files("lazy_subscription.js", "client");
+});
