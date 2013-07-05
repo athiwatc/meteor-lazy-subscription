@@ -33,5 +33,13 @@ Post = new Meteor.Lazy('post', function() {
 });
 ```
 
+/client/some_template.js
+
+``` javascript
+Template.some_template.get_posts = function() {
+	return Post().find({}); //Note that Post is now a function.
+};
+```
+
 ### Notes
 This should be use in reactive context or else on the first run you will get an empty collection.

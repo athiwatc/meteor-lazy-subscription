@@ -3,7 +3,7 @@
   "description": "Don't subscribe until you need to.",
   "homepage": "https://github.com/athiwatc/meteor-lazy-subscription",
   "author": "Athiwat Chunlakhan <athiwatc@gmail.com>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "git": "https://github.com/athiwatc/meteor-lazy-subscription.git",
   "packages": {}
 }
